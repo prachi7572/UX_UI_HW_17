@@ -1,0 +1,65 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    background-color:bisque;
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: center;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #39ca74;
+}
+
+ul{
+    width: auto; 
+    float: right;
+    margin-top: 20px;
+}
+
+li{
+    display: inline-block;
+    padding: 30px 30px;
+}
+
+a {
+     text-align: center;
+     color: #000;
+     text-decoration: none;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1.2w;
+}
+
+a:hover{
+    color: #f03030;
+    transition: 0.5s;
+}
+
+.logo{
+    float:top;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    margin: left: 0%;
+    width: 100px;
+    height: 100px;
+}
+
+.hero_image{
+    float:right;
+    display:block;
+    margin: center;
+    margin-block: 80px;
+    margin: center: 50px;
+    width: 500px;
+    height: 500px;
+}
